@@ -1,0 +1,40 @@
+table {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.tabela1, .tabela1 th, .tabela1 td, .tabela2, .tabela2 th, .tabela2 td {
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+.tabela1 th{
+    background-color: rgb(130, 242, 242);
+    font-size: 1.3rem;
+    width: calc(100%/7);
+}
+
+.tabela1 td {
+    text-align: center;
+    font-size: 1.2rem;
+
+}
+
+.tabela1 td:hover {
+    background-color: rgb(242, 75, 75);
+    cursor: pointer;
+}
+
+.tabela2 tr:first-child {
+    background-color: greenyellow;
+}
+
+.tabela3 {
+    text-align: left;
+    border-spacing: 0 10px;
+}
+
+.tabela3 tr:nth-child(even){
+    background-color: grey;
+}
+

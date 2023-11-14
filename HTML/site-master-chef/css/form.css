@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&family=Oswald:wght@500&family=Outfit:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url("../img/imagem_fundo3.jpeg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#form {
+    background-color: rgba(0, 0, 0, 0.5);
+	margin: auto auto;
+	padding: 40px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #000;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 600px;
+	height: 100%;
+    color: white;
+    font-size: 21px;
+    margin:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.card > h3 {
+    font-family: 'Outfit', sans-serif;
+    margin: 1rem;
+}
+
+.card > label {
+    font-family: poppins;
+    font-size: 17px;
+}
+
+.card input {
+	margin: 10px 0px;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	width: 100%;
+	font-size: 15px;
+	font-family: poppins;
+    cursor: pointer;
+    background-color: #ddd;
+}
+
+select {
+    margin: 10px 0px;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	width: 100%;
+	font-size: 15px;
+	font-family: poppins;
+    cursor: pointer;
+    background-color: #ddd;
+}
+
+button {
+    background-color: deepskyblue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 15px;
+    padding: 10px;
+    margin: 20px 0px;
+    font-family: poppins;
+}
